@@ -5,6 +5,9 @@ Rozdělení dlouhého řádku na více řádků - Alt + Z
 ul>li*10 = 10 <li> položek
 table>(thead>tr>th*3)+(tbody>tr>td*3) = nástroj k tabulkám
 Auto text - Lorem
-Obalení - Alt + Shift + P - Emmet: Wrap and abreviation
+Obalení - Ctrl + Shift + P - Emmet: Wrap and abreviation
 display: flex - podřízené prvky (flex items)
 rychlé kopírování - Alt + Shift + Down
+/ = route
+vh = velikost, která je zobrazována na monitoru, mobilu atd. takové procenta, např. 100 vh, jde vidět na celem monitoru, 50 vh, jde vidět na půlce monitoru
+rem = velikost písma, která se přízpůsoví nastavení prohlížeče
