@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: wheat;
+        }
+
+        .container {
+            border: 2px black solid;
+            border-radius: 15px;
+            max-width: 500px;
+            margin: 300px auto;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            overflow: hidden;
+        }
+
+        .block {
+            border: black solid 2px;
+            background-color: wheat;
+            max-width: 500px;
+            margin: 30px auto;
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        .m-b-1 {
+            margin-bottom: 10px;
+        }
+
+        .m-b-2 {
+            margin-bottom: 20px;
+        }
+
+        .w-100 {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        
+    </style>
+    <title>Formulář📑</title>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h1>Formulář</h1>
+            <div class="block m-b-1">
+                <div class="m-b-1"><label for="fname">Křestní jméno</label></div>
+                <div class="m-b-1"><input type="text" name="fname" id="fname"></div>
+                <div class="m-b-1"><label for="lname">Příjmení</label></div>
+                <div class="m-b-1"><input type="text" name="lname" id="lname"></div>
+                <div><input type="button" value="Submit"></div>
+            </div>
+            <div class="block m-b-2">
+                <div><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> I have a bike</label>
+                </div>
+                <div><input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2"> I have a car</label>
+                </div>
+                <div><input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> I have a boat</label>
+                </div>
+            </div>
+            <div class="block m-b-2">
+                <div><input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">HTML</label>
+                </div>
+                <div><input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">CSS</label>
+                </div>
+                <div><input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+                </div>
+            </div>
+            <div class="block m-b-1">
+                <div><label for="vol">Volume (between 0 and 50):</label></div>
+                <div class="w-100"><input type="range" id="vol" name="vol" min="0" max="50"></div>
+                <div><input type="button" value="Submit"></div>
+            </div>
+            <div>
+                <div><input class="w-100" type="button" id="button1" name="button1" value="Odeslat"></div>
+            </div>
+            
+        </form>
+    </div>
+</body>
+
+</html>
