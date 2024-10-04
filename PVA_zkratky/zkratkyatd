@@ -1,0 +1,10 @@
+auto. formatování - Alt + Shift + F
+nastavení - Alt + ,
+Koment - Ctrl + K + C Zmizení - Ctrl + K + U
+Rozdělení dlouhého řádku na více řádků - Alt + Z
+ul>li*10 = 10 <li> položek
+table>(thead>tr>th*3)+(tbody>tr>td*3) = nástroj k tabulkám
+Auto text - Lorem
+Obalení - Alt + Shift + P - Emmet: Wrap and abreviation
+display: flex - podřízené prvky (flex items)
+rychlé kopírování - Alt + Shift + Down
